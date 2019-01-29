@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu">
+    tools:context=".Menu"
+    android:orientation="vertical"
+    android:background="@drawable/back1"
+    >
 
-</android.support.constraint.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/buttonToTalkGames"
+        style="@style/Widget.AppCompat.ImageButton"
+        android:layout_width="203dp"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/neveronefive" />
+
+    <ImageButton
+        android:id="@+id/buttonToCardGames"
+        android:layout_width="205dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_toEndOf="@+id/buttonToTalkGames"
+        android:layout_toRightOf="@+id/buttonToTalkGames"
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/beercardsonefive" />
+
+
+</RelativeLayout>
