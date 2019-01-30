@@ -25,7 +25,7 @@ public class Menu extends AppCompatActivity {
         gamesWithCardsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent go = new Intent(Menu.this, gamesWithGames.class);
+                Intent go = new Intent(Menu.this, gamesWithCards.class);
                 startActivity(go);
             }
 

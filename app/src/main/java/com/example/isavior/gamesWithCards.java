@@ -3,7 +3,7 @@ package com.example.isavior;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class gamesWithGames extends AppCompatActivity {
+public class gamesWithCards extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
