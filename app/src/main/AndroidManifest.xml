@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".gamesWithCards"></activity>
+        <activity android:name=".HigherOrLower"></activity>
+        <activity android:name=".RingOfFire" />
+        <activity android:name=".gamesWithCards" />
         <activity android:name=".gamesWithTalk">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
